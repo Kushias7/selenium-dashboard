@@ -1,4 +1,4 @@
-# selenium-dashboard
+
 import { Builder, By, until, WebDriver } from 'selenium-webdriver';
 
 async function runTest(testName: string): Promise<{testName: string; passed: boolean; timestamp: string}> {
